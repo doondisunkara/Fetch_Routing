@@ -1,0 +1,59 @@
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #8e8e8e;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.book-img {
+  width: 250px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.book-topic {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5px;
+}
+
+.book-title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.author-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.author-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.author-name {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
